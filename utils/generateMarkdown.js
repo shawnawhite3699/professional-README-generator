@@ -17,7 +17,9 @@ function renderLicenseLink(license) {
 //Function to return the license section of README
 function renderLicenseSection(license) {
     if (license !== "None") {
-      return `## License
+      return `
+    ## License
+    
     This application is covered under the ${license} license.`
     }
     return ``;
@@ -26,7 +28,7 @@ function renderLicenseSection(license) {
 //Generate markdown for README function
 function generateMarkdown(data) {
     return `
-    #  ${data.title}
+    # ${data.title}
     
     ${renderLicenseBadge(data.license)}
     
@@ -63,7 +65,7 @@ function generateMarkdown(data) {
   
     ## Questions
     
-    Check out my other projects on GitHub: [${data.username}](https://github.com/${data.username})   
+    Check out my other projects on GitHub: ${data.username}   
     Feel free to contact with me with questions at: ${data.email}   
   `;
 }  
