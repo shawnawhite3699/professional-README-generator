@@ -25,9 +25,9 @@
     
   
     
-      ## License
+    ## License
     
-      This application is covered under the ISC license.
+    This application is covered under the ISC license.
   
     ## Contributing
     
@@ -39,6 +39,6 @@
   
     ## Questions
     
-    Check out my other projects on GitHub: [undefined](https://github.com/undefined)   
+    Check out my other projects on GitHub: shawnawhite3699   
     Feel free to contact with me with questions at: sw1056@gmail.com   
   
