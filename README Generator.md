@@ -1,11 +1,11 @@
 
-    #  README
+    #  README Generator
     
-    ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
+    ![Badge](https://img.shields.io/badge/License-ISC-blue.svg)
     
     ## Description
     
-    YYYYYYYY
+    Creates a README from command line
   
     ## Table of Contents
     
@@ -18,25 +18,25 @@
   
     ## Installation
     
-    DDDDDD
+    Install
   
     ## Usage
     
-    WWWWWW
+    Use this way
   
     ## License
-      This application is covered by the MIT license.
+      This application is covered by the ISC license.
   
     ## Contributing
     
-    KKKKKK
+    Contribute
   
     ## Tests
     
-    NNNNNNN
+    Test this way
   
     ## Questions
     
     Check out my other projects on GitHub: [undefined](https://github.com/undefined)   
-    Feel free to contact with me with questions at: slkjflkdjf   
+    Feel free to contact with me with questions at: sldkjfldjf   
   
