@@ -18,9 +18,9 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     if (license !== "None") {
       return `
-    ## License
+## License
     
-    This application is covered under the ${license} license.`
+This application is covered under the ${license} license.`
     }
     return ``;
 }
@@ -28,45 +28,45 @@ function renderLicenseSection(license) {
 //Generate markdown for README function
 function generateMarkdown(data) {
     return `
-    # ${data.title}
+# ${data.title}
     
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
     
-    ## Description
+## Description
     
-    ${data.description}
+${data.description}
   
-    ## Table of Contents
+## Table of Contents
     
-    - [Installation](#installation)
-    - [Usage](#usage)
-    ${renderLicenseLink(data.license)}
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+${renderLicenseLink(data.license)}
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
   
-    ## Installation
+## Installation
     
-    ${data.installation}
+${data.installation}
   
-    ## Usage
+## Usage
     
-    ${data.usage}
+${data.usage}
   
-    ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
   
-    ## Contributing
+## Contributing
     
-    ${data.contributing}
+${data.contributing}
   
-    ## Tests
+## Tests
     
-    ${data.tests}
+${data.tests}
   
-    ## Questions
+## Questions
     
-    Check out my other projects on GitHub: ${data.github}   
-    Feel free to contact with me with questions at: ${data.email}   
+Check out my other projects on GitHub: ${data.github}   
+Feel free to contact with me with questions at: ${data.email}   
   `;
 }  
 
