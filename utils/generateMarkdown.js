@@ -78,10 +78,13 @@ ${data.tests}
 ---
 
 ## Questions
-    
-Check out my other projects on GitHub: ${data.github}   
-Feel free to contact with me with questions at: ${data.email}   
-  `;
+
+Feel free to email me at: ${data.email}.
+
+---
+
+Check out my other projects on GitHub: [${data.github}](https://github.com/${data.github})
+`;
 }  
 
 module.exports = generateMarkdown;
