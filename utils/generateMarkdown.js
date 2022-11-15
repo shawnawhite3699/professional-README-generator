@@ -35,7 +35,9 @@ ${renderLicenseBadge(data.license)}
 ## Description
     
 ${data.description}
-  
+
+---
+
 ## Table of Contents
     
 - [Installation](#installation)
@@ -44,25 +46,37 @@ ${renderLicenseLink(data.license)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-  
+
+---
+
 ## Installation
     
 ${data.installation}
-  
+
+---
+
 ## Usage
     
 ${data.usage}
-  
+
+---
+
 ${renderLicenseSection(data.license)}
-  
+
+---
+
 ## Contributing
     
 ${data.contributing}
-  
+
+---
+
 ## Tests
     
 ${data.tests}
-  
+
+---
+
 ## Questions
     
 Check out my other projects on GitHub: ${data.github}   
