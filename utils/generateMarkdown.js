@@ -84,7 +84,7 @@ Feel free to email me at: ${data.email}.
 ---
 
 Check out my other projects on GitHub: [${data.github}](https://github.com/${data.github})
-`;
+    `;
 }  
 
 module.exports = generateMarkdown;
