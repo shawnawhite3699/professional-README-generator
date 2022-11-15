@@ -79,7 +79,7 @@ ${data.tests}
 
 ## Questions
 
-Feel free to email me at: ${data.email}.
+Feel free to email me at: ${data.email}
 
 ---
 
